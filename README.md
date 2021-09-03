@@ -27,8 +27,8 @@
 `
 compress("aaabccddddaaa")
 
-string = "a"
-// Ran out of time !!
+
+// Ran out of time
 `function recursive (string, i = 0, result = ''){
     if (i >= string.length){
         return result
@@ -38,4 +38,5 @@ string = "a"
         return recursive (string, i+1 result)
     }
         
-}`
+}
+`
