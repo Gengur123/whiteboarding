@@ -4,7 +4,7 @@
 // Has to keep track of 2 things, 1 is the letters and how much it appears consecutively
 
 
-function compress(str){
+`function compress(str){
   //stores the results and counter
     let result = ''
     let counter = 0;
@@ -24,12 +24,12 @@ function compress(str){
     console.log(result)
     return result
 }
-
+`
 compress("aaabccddddaaa")
 
 string = "a"
 // Ran out of time !!
-function recursive (string, i = 0, result = ''){
+`function recursive (string, i = 0, result = ''){
     if (i >= string.length){
         return result
     } else if (string[i] != str[i + 1]){
@@ -38,4 +38,4 @@ function recursive (string, i = 0, result = ''){
         return recursive (string, i+1 result)
     }
         
-}
+}`
