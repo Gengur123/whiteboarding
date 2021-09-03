@@ -29,7 +29,7 @@ compress("aaabccddddaaa")
 
 
 // Ran out of time
-`function recursive (string, i = 0, result = ''){
+```function recursive (string, i = 0, result = ''){
     if (i >= string.length){
         return result
     } else if (string[i] != str[i + 1]){
@@ -39,4 +39,4 @@ compress("aaabccddddaaa")
     }
         
 }
-`
+```
